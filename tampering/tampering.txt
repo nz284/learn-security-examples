@@ -1,0 +1,6 @@
+Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Attacker can temper with app's inputs, then things entered into the form by the user is actually read and used by the server.
+Attacker can type code in the form or insert a hyperlink, the server will run it.
+
+The secure version: we take inputs and sanitize, clear anything that could be script. Then the script won't enter server.

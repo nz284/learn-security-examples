@@ -1,1 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+vulnerability means when a session starts, a session ID created and stores in cookie of browser. The session may be spoofed if user has session ID.
+
+If someone other takes session ID, session can be accessed with admin's authority right. And When cookie is stored, session ID will be sent with request header.  
+
+In secure version, middleware set session ID in cookie of browser to httpOnly =true, this requires document.cookie. sameSite=true, makes session not sent to other sites. Then if there is a request sent, there is some authority.certainty that the request is from a valid client.
