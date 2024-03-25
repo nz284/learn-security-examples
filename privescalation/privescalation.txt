@@ -1,0 +1,5 @@
+Elevation of Privilege occurs when a user or process gains higher access rights or permissions than intended, 
+often bypassing security controls. This can allow attackers to execute commands, access restricted data, 
+or perform unauthorized actions within a system. 
+Defending against elevation of privilege involves implementing principle of least privilege, 
+ensuring users and systems operate with the minimum level of access necessary for their functions.

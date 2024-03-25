@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+DoD attacks make resource unaccisible for users. It can overwhelming the resource with excessive requests, 
+exploiting a vulnerability to crash a system, or interrupting the normal operation of a service. 
+This kind of attack can be mitigated through network security measures, such as traffic filtering, 
+rate limiting and redundant system design.

@@ -1,3 +1,7 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
 Which CIA property does tampering violate?
 What additional security mechanisms can you incorporate?
+
+Information Disclosure is unauthorized access or exposure of private or sensitive information.
+This happens through software vulnerabilities, inadequate data protection measures, or human error, etc,
+leading to the exposure of personal data, trade secrets, or any information that was meant to be confidential. Protecting against information disclosure requires robust data encryption, access controls, and privacy policies

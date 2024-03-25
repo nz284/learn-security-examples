@@ -1,2 +1,4 @@
 - Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Repudiation threats are those where the actions of a user cannot be tracked or proven. This means an attacker could deny any wrongdoing because there's no way to prove their actions or involvement. Repudiation issues are often addressed by implementing strong auditing and logging mechanisms that can trace and verify every action taken by users or systems, ensuring accountability.
